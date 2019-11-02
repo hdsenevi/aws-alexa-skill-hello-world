@@ -1,0 +1,75 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.27219e7d-93d0-4926-acaf-193b153a9b5c",
+      "was_cloned": false,
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "98a6dfdb99f9ff04a9ece232ec11b33b"
+        },
+        "interactionModel": {
+          "de-DE": {
+            "eTag": "f2b1ebf30061d8f145aaac63bea32053"
+          },
+          "en-CA": {
+            "eTag": "5299bcedcced306d270b4280ff0348b4"
+          },
+          "en-AU": {
+            "eTag": "b3bc745aba1518aa8b4ea976f4163cee"
+          },
+          "en-IN": {
+            "eTag": "7d0da7b9c9d81c198842784198928430"
+          },
+          "es-ES": {
+            "eTag": "5c3d08c519bdc9dbdfa495a4e1b3b84e"
+          },
+          "en-GB": {
+            "eTag": "5d30bbe29d6d52e1911e9ac718edfe30"
+          },
+          "es-MX": {
+            "eTag": "d72c4a45caa6f428af18b2e5d3c8108a"
+          },
+          "fr-CA": {
+            "eTag": "2c437cffb2f13d1728fc1980847cfc38"
+          },
+          "hi-IN": {
+            "eTag": "9b39d32e05ba38d06ab21869b3b80f01"
+          },
+          "pt-BR": {
+            "eTag": "8c2a2fdd75e571c0fa66936a5e72b634"
+          },
+          "en-US": {
+            "eTag": "0d8e20bb08c0efa458b8babe2b617e7b"
+          },
+          "fr-FR": {
+            "eTag": "7f09bad1bc87ec9d2f3e405fcd86df24"
+          },
+          "ja-JP": {
+            "eTag": "f77565c361e6e52e97d5b5c07e1a49a4"
+          },
+          "es-US": {
+            "eTag": "c57f416f21f3303d01704fe5d0f32cff"
+          },
+          "it-IT": {
+            "eTag": "71e0d008d4657267cedaf0631ae223fc"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:us-east-1:398403301446:function:ask-custom-hello-world-default",
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda/custom",
+            "functionName": "ask-custom-hello-world-default",
+            "handler": "index.handler",
+            "revisionId": "b82cdfc2-a12a-4637-a524-77f6baae0345",
+            "runtime": "nodejs8.10"
+          }
+        ]
+      }
+    }
+  }
+}
