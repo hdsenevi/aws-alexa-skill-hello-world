@@ -6,7 +6,7 @@
       "merge": {},
       "resources": {
         "manifest": {
-          "eTag": "98a6dfdb99f9ff04a9ece232ec11b33b"
+          "eTag": "664f4275dcbafd750ce39b98f111878d"
         },
         "interactionModel": {
           "de-DE": {
@@ -40,7 +40,7 @@
             "eTag": "8c2a2fdd75e571c0fa66936a5e72b634"
           },
           "en-US": {
-            "eTag": "0d8e20bb08c0efa458b8babe2b617e7b"
+            "eTag": "30cc26cdd4da4668a57012235635163f"
           },
           "fr-FR": {
             "eTag": "7f09bad1bc87ec9d2f3e405fcd86df24"
@@ -65,7 +65,7 @@
             "codeUri": "lambda/custom",
             "functionName": "ask-custom-hello-world-default",
             "handler": "index.handler",
-            "revisionId": "b82cdfc2-a12a-4637-a524-77f6baae0345",
+            "revisionId": "cf8e7337-1a87-4314-ba55-bf66b6511ef3",
             "runtime": "nodejs8.10"
           }
         ]
